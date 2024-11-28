@@ -5,7 +5,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 Roboto: ["'Roboto'", 'sans-serif', 'Arial'],
-                SignPainter: ["'SignPainter'", 'sans-serif', 'Arial']
+                SignPainter: ["'SignPainter'", 'Arial', 'sans-serif']
             }
         },
     },

@@ -575,7 +575,7 @@ video {
 
   font-display: swap;
 
-  src: url(../fonts/signPainter/SignPainterHouseScript.ttf);
+  src: url(../fonts/signPainter/signpainter_housescript.otf);
 }
 
 .absolute {
@@ -590,36 +590,20 @@ video {
   left: 2.5rem;
 }
 
-.left-\[calc\(50\%-4px\)\] {
-  left: calc(50% - 4px);
-}
-
-.top-2 {
-  top: 0.5rem;
-}
-
-.top-3\/4 {
-  top: 75%;
-}
-
-.top-\[calc\(100\%\+8px\)\] {
-  top: calc(100% + 8px);
+.left-\[calc\(50\%-0\.25rem\)\] {
+  left: calc(50% - 0.25rem);
 }
 
 .top-1 {
   top: 0.25rem;
 }
 
-.top-full {
-  top: 100%;
+.top-3\/4 {
+  top: 75%;
 }
 
 .top-\[calc\(100\%\+0\.25rem\)\] {
   top: calc(100% + 0.25rem);
-}
-
-.left-\[calc\(50\%-0\.25rem\)\] {
-  left: calc(50% - 0.25rem);
 }
 
 .z-20 {
@@ -652,10 +636,6 @@ video {
   margin-top: auto;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -668,6 +648,10 @@ video {
   height: 100vh;
 }
 
+.w-4\/12 {
+  width: 33.333333%;
+}
+
 .w-5\/12 {
   width: 41.666667%;
 }
@@ -676,16 +660,16 @@ video {
   width: 50%;
 }
 
+.w-7\/12 {
+  width: 58.333333%;
+}
+
 .w-9\/12 {
   width: 75%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
 }
 
 .cursor-pointer {
@@ -724,6 +708,10 @@ video {
   row-gap: 0.5rem;
 }
 
+.gap-y-4 {
+  row-gap: 1rem;
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -760,26 +748,6 @@ video {
   border-top-width: 1px;
 }
 
-.border-s-2 {
-  border-inline-start-width: 2px;
-}
-
-.border-t-2 {
-  border-top-width: 2px;
-}
-
-.border-b {
-  border-bottom-width: 1px;
-}
-
-.border-b-2 {
-  border-bottom-width: 2px;
-}
-
-.border-e-2 {
-  border-inline-end-width: 2px;
-}
-
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
@@ -793,36 +761,6 @@ video {
 .bg-\[\#EFF0EB\] {
   --tw-bg-opacity: 1;
   background-color: rgb(239 240 235 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
-}
-
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
-}
-
-.bg-violet-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(196 181 253 / var(--tw-bg-opacity, 1));
-}
-
-.bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity, 1));
 }
 
 .p-2 {
@@ -843,6 +781,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -853,21 +796,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .ps-2 {
   padding-inline-start: 0.5rem;
 }
@@ -876,24 +804,12 @@ video {
   padding-inline-start: 1.5rem;
 }
 
-.pt-2 {
-  padding-top: 0.5rem;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
 .pt-0 {
   padding-top: 0px;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .font-Roboto {
@@ -901,7 +817,7 @@ video {
 }
 
 .font-SignPainter {
-  font-family: 'SignPainter', sans-serif, Arial;
+  font-family: 'SignPainter', Arial, sans-serif;
 }
 
 .text-4xl {
@@ -924,22 +840,9 @@ video {
   line-height: 1.75rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.font-normal {
-  font-weight: 400;
-}
-
-.font-light {
-  font-weight: 300;
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-\[\#913334\] {
