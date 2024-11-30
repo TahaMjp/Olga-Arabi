@@ -10,6 +10,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -17,7 +21,7 @@
     <section id="MobileView" class="flex flex-col md:hidden">
         <div id="frame1" class="h-screen w-full bg-[#EFF0EB] flex flex-col justify-end">
             <!-- NavBar Start -->
-            <nav class="w-full py-4 border-b-[1px] border-black fixed top-0 hidden z-50" id="navbar">
+            <nav class="w-full py-4 border-b-[1px] border-black fixed top-0 hidden z-50 bg-[#EFF0EB]" id="navbar">
                 <ul class="flex justify-around">
                     <li id="navBarItem-AboutMe" class="text-[#913334] font-Roboto cursor-pointer">ОБО МНЕ</li>
                     <li id="navBarItem-Price" class="text-[#913334] font-Roboto cursor-pointer">СТОИМОСТЬ</li>
@@ -95,6 +99,153 @@
                     сексуальной сферойнет оргазма,мало секса в отношениях
                 </p>
             </div>
+        </div>
+        <div id="frame4" class="w-full flex flex-col mt-2">
+            <p class="p-4 text-5xl text-[#913334] font-SignPainter ">Образование</p>
+            <div class="w-full flex flex-col gap-y-5 px-4">
+                <p class="font-Roboto text-balance p-2 leading-6">Профессиональная переподготовка “Институт практической
+                    психологии и супервизии им. О. Берг” (2023 - 2024)</p>
+                <p class="font-Roboto text-balance p-2 leading-6">Повышение квалификации “Институт практической
+                    психологии и супервизии им. О. Берг” - Эффективные приемы и методы работы с запросами сексуального
+                    характера (2024)
+                </p>
+                <p class="font-Roboto text-balance p-2 leading-6">Интенсив по работе с МАК - картами (2024)</p>
+                <p class="font-Roboto text-balance p-2 leading-6">Повышение квалификации “Московский институт
+                    психоанализа” - Основы психологической науки и практики (2024)</p>
+                <p class="font-Roboto text-balance p-2 leading-6">В настоящее время продолжаю обучение и повышение
+                    квалификации. Регулярно посещаю супервизии и интервизии. Более 2 лет нахожусь в личной терапии.</p>
+            </div>
+        </div>
+        <div id="frame6" class="w-full flex flex-col items-center mt-2 py-2 gap-y-5">
+            <div class="w-10/12 flex justify-between border-[1px] border-black rounded-lg">
+                <p class="flex w-8/12 flex-col text-balance p-2">
+                    <span class="font-SignPainter text-3xl text-[#913334]">01 /</span>
+
+                    <span class="font-Roboto">Индивидуальная консультация
+                        (продолжительность 50 мин)
+
+                        Онлайн 2000 руб.</span>
+                </p>
+                <img src="images/frame4/IMG_5072 1.png" alt="" class="w-5/12 rounded-e-lg">
+
+            </div>
+            <div class="w-10/12 flex justify-between border-[1px] border-black rounded-lg flex-row-reverse">
+                <p class="flex w-8/12 flex-col text-balance p-2">
+                    <span class="font-SignPainter text-3xl text-[#913334]">02 /</span>
+
+                    <span class="font-Roboto">МАК - сессия
+                        (продолжительность 1 час)
+
+                        Онлайн 1500 руб.</span>
+                </p>
+                <img src="images/frame4/IMG_5079 1.png" alt="" class="w-5/12 rounded-s-lg">
+
+            </div>
+        </div>
+        <div id="frame7" class="w-full flex flex-col items-center mt-2">
+            <p class="p-4 text-5xl font-SignPainter text-[#913334]">Часто задаваемые вопросы</p>
+            <div class="w-full mx-auto my-4 flex flex-col">
+                <div class="border border-black rounded-lg w-11/12 mx-auto ">
+                    <div class="accordion-item ">
+                        <button
+                            class="flex items-center justify-between w-full p-5 text-left text-gray-700 bg-[#D3B188] border-b rounded-t-lg focus:outline-none transition duration-300 ease-in-out"
+                            data-target="#item1">
+                            <span class="font-Roboto">Question 1</span>
+                            <svg class="w-4 h-4 transition-transform duration-300" data-icon="icon1"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                        <div id="item1"
+                            class="accordion-content hidden overflow-hidden transition-all duration-500 ease-in-out">
+                            <p class="p-5 bg-[#D3B188] font-Roboto">Answer to question 1.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button
+                            class="flex items-center justify-between w-full p-5 text-left text-gray-700 bg-[#D3B188] border-b focus:outline-none transition duration-300 ease-in-out"
+                            data-target="#item2">
+                            <span class="font-Roboto">Question 2</span>
+                            <svg class="w-4 h-4 transition-transform duration-300" data-icon="icon2"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                        <div id="item2"
+                            class="accordion-content hidden overflow-hidden transition-all duration-500 ease-in-out">
+                            <p class="p-5 bg-[#D3B188] font-Roboto">Answer to question 2.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button
+                            class="flex items-center justify-between w-full p-5 text-left text-gray-700 bg-[#D3B188] border-b focus:outline-none transition duration-300 ease-in-out"
+                            data-target="#item3">
+                            <span class="font-Roboto">Question 3</span>
+                            <svg class="w-4 h-4 transition-transform duration-300" data-icon="icon3"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                        <div id="item3"
+                            class="accordion-content hidden overflow-hidden transition-all duration-500 ease-in-out">
+                            <p class="p-5 bg-[#D3B188] font-Roboto">Answer to question 2.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button
+                            class="flex items-center justify-between w-full p-5 text-left text-gray-700 bg-[#D3B188] border-b focus:outline-none transition duration-300 ease-in-out"
+                            data-target="#item4">
+                            <span class="font-Roboto">Question 4</span>
+                            <svg class="w-4 h-4 transition-transform duration-300" data-icon="icon4"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                        <div id="item4"
+                            class="accordion-content hidden overflow-hidden transition-all duration-500 ease-in-out">
+                            <p class="p-5 bg-[#D3B188] font-Roboto">Answer to question 2.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button
+                            class="flex items-center justify-between w-full p-5 text-left text-gray-700 bg-[#D3B188] border-b focus:outline-none transition duration-300 ease-in-out"
+                            data-target="#item5">
+                            <span class="font-Roboto">Question 5</span>
+                            <svg class="w-4 h-4 transition-transform duration-300" data-icon="icon5"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                        <div id="item5"
+                            class="accordion-content hidden overflow-hidden transition-all duration-500 ease-in-out rounded-b-lg">
+                            <p class="p-5 bg-[#D3B188] font-Roboto">Answer to question 4.</p>
+                        </div>
+                    </div>
+                    <!-- Add more accordion items as needed -->
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex flex-wrap gap-5 justify-around py-4">
+            <p class="p-4 text-[#913334] font-SignPainter text-5xl w-full">Connect With Me</p>
+            <a href=""
+                class="w-4/12 items-center text-xl font-Roboto flex p-2 border-[1px] border-black rounded-lg justify-around"
+                target="_blank"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+            <a href=""
+                class="w-4/12 items-center text-xl font-Roboto flex p-2 border-[1px] border-black rounded-lg justify-around"
+                target="_blank"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+            <a href=""
+                class="w-4/12 items-center text-xl font-Roboto flex p-2 border-[1px] border-black rounded-lg justify-around"
+                target="_blank"><i class="fa-brands fa-telegram"></i>Telegram</a>
+            <a href=""
+                class="w-4/12 items-center text-xl font-Roboto flex p-2 border-[1px] border-black rounded-lg justify-around"
+                target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+            <a href=""
+                class="w-4/12 items-center text-xl font-Roboto flex p-2 border-[1px] border-black rounded-lg justify-around"
+                target="_blank"><i class="fa-brands fa-twitter"></i>Twitter</a>
+            <a href=""
+                class="w-4/12 items-center text-xl font-Roboto flex p-2 border-[1px] border-black rounded-lg justify-around"
+                target="_blank"><i class="fa-solid fa-at"></i>Threads</a>
         </div>
     </section>
     <!-- Mobile View End -->
