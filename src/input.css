@@ -1,23 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
-@layer base {
-    @font-face {
-        font-family: 'Roboto';
+    @layer base {
+      @font-face {
+        font-family: "Roboto";
         font-style: normal;
         font-weight: 400;
         font-display: swap;
         src: url(../fonts/roboto/Roboto-Regular.ttf);
+      }
     }
-}
 
-@layer base {
-    @font-face {
-        font-family: 'SignPainter';
+    @layer base {
+      @font-face {
+        font-family: "SignPainter";
         font-style: normal;
         font-weight: 400;
         font-display: swap;
         src: url(../fonts/signPainter/signpainter_housescript.otf);
+      }
     }
-}
+
+    .translate-x-neg-full {
+      transform: translateX(-100%);
+    }
+
+    .translate-x-0 {
+      transform: translateX(0);
+    }
+
+    .transition-transform {
+      transition: transform 2s
+    }
