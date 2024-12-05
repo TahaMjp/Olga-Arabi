@@ -24,12 +24,24 @@
 
     .translate-x-neg-full {
       transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      -o-transform: translateX(-100%);
     }
 
     .translate-x-0 {
       transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
     }
 
     .transition-transform {
-      transition: transform 2s
+      transition: transform 1s !important;
+      -webkit-transition: transform 1s !important;
+      -moz-transition: transform 1s !important;
+      -ms-transition: transform 1s !important;
+      -o-transition: transform 1s !important;
     }
