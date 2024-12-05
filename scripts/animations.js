@@ -9,4 +9,5 @@ $(document).ready(function() {
             }
         });
     });
+    $("#frameOnePicture").removeClass('translate-x-neg-full').addClass('translate-x-0');
 });
