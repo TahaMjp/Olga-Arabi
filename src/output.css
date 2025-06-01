@@ -688,13 +688,13 @@ video {
   width: 66.666667%;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .translate-x-0 {
@@ -824,11 +824,6 @@ video {
 .bg-\[\#d3b19a\] {
   --tw-bg-opacity: 1;
   background-color: rgb(211 177 154 / var(--tw-bg-opacity, 1));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
 }
 
 .p-1 {
